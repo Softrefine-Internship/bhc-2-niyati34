@@ -1,1 +1,192 @@
-/* write your css here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f9fafb;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 48px 40px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.logo {
+  margin-bottom: 24px;
+}
+
+.logo svg {
+  width: 40px;
+  height: 40px;
+}
+
+.form-header h1 {
+  font-size: 24px;
+  color: #1f2937;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 5px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: white;
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.remember-me input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #6366f1;
+}
+
+.remember-me label {
+  color: #4c4c4d;
+  font-weight: 500;
+  margin: 0;
+  font-size: 12px;
+}
+
+.forgot-password {
+  color: #4848e0;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.signin-btn {
+  width: 100%;
+  background-color: #4848e0;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 7px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+
+.divider {
+  text-align: center;
+  margin-bottom: 24px;
+  position: relative;
+  color: #353535;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.divider::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #e5e7eb;
+  z-index: 1;
+}
+
+.divider span {
+  background-color: white;
+  padding: 0 16px;
+  position: relative;
+  z-index: 2;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.social-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 7px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: white;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.social-btn.twitter {
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+}
+
+.social-btn.github {
+  background-color: #333;
+  border-color: #333;
+}
+
+.social-btn svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.signup-link {
+  text-align: center;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.signup-link a {
+  color: #4848e0;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 12px;
+}

@@ -1,1 +1,86 @@
-/* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+.blogs {
+  width: 60%;
+  margin: 35px auto;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+.sub-heading {
+  color: rgb(88, 88, 88);
+  margin-bottom: 60px;
+}
+.blog {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 4%;
+}
+.blog:last-child {
+  margin-bottom: 0px;
+}
+.cover img {
+  width: 220px;
+  border-radius: 12px;
+}
+.image img {
+  width: 40px;
+  border-radius: 50px;
+}
+.dates {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.dates p:first-child {
+  font-size: 12px;
+  color: rgb(174, 174, 174);
+}
+.dates p:last-child {
+  font-size: 12px;
+  color: rgb(59, 59, 59);
+  background-color: #eff0f0;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+h4 {
+  margin-bottom: 10px;
+}
+.description {
+  color: #777777;
+  line-height: 1.5;
+  width: 79%;
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+hr {
+  margin-bottom: 25px;
+}
+.profile {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.name {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #242424;
+}
+.profession {
+  font-size: 13px;
+  color: #868686;
+}

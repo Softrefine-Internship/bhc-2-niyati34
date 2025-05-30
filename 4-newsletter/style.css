@@ -1,1 +1,67 @@
-/* write your css here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+section {
+  background-color: #101927;
+  background-image: radial-gradient(
+    circle 80vh at 50% 120%,
+    #3e264e 40%,
+    #101927 70%
+  );
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 95%;
+  height: 500px;
+  border-radius: 30px;
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newsletter {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  flex-grow: 1;
+}
+
+h2 {
+  font-size: 38px;
+  color: white;
+  margin-bottom: 20px;
+}
+.description {
+  color: rgba(255, 255, 255, 0.762);
+  line-height: 1.5;
+  font-size: 20px;
+  margin-bottom: 35px;
+  width: 40%;
+}
+.email-section {
+  display: flex;
+  gap: 15px;
+  flex-grow: 1;
+  width: 30%;
+  align-items: center;
+}
+.email {
+  border: 0.5px solid #5b5b5b;
+  border-radius: 5px;
+  background-color: #e2e2e21c;
+  width: 70%;
+  padding: 10px 15px;
+}
+button {
+  padding: 10px 15px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+}
