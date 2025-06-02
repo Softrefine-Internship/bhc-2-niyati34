@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 header {
   text-align: center;
@@ -15,11 +15,11 @@ header {
   font-size: 16px;
   color: #4949e0;
   margin-bottom: 10px;
-  font-weight: 600;
+  font-weight: 700;
 }
 .heading-main {
   font-size: 42px;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 20px;
 }
 .head-description {
@@ -47,7 +47,7 @@ section {
   border-right: none;
 }
 .plan-type {
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 10px;
 }
 .pricing {
@@ -57,13 +57,13 @@ section {
 }
 .price {
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 10px;
 }
 .month {
   font-size: 12px;
   color: #717171;
-  font-weight: 600;
+  font-weight: 700;
 }
 .annually {
   font-size: 14px;
@@ -78,11 +78,12 @@ button {
   border-radius: 5px;
   color: white;
   margin-bottom: 25px;
+  cursor: pointer;
 }
 .info {
   font-size: 14px;
   margin-bottom: 20px;
-  font-weight: 600;
+  font-weight: 700;
 }
 ul {
   list-style: none;
@@ -94,6 +95,7 @@ li {
   color: #717171;
   display: flex;
   align-items: center;
+  font-weight: 600;
 }
 li::before {
   padding-right: 10px;

@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Mulish", sans-serif;
   background-color: #ffffff;
   background: radial-gradient(
       circle at 5% 0%,
@@ -88,9 +88,11 @@ a {
 }
 .readmore > p {
   color: #808792;
+  font-size: 14px;
 }
 .readmore .arrow-attach p {
   color: #4f46e5;
+  font-size: 14px;
   font-weight: 700;
 }
 .arrow-attach {
@@ -107,7 +109,7 @@ a {
   width: 90%;
 }
 h1 {
-  font-size: 54px;
+  font-size: 52px;
 }
 .get-started {
   background-color: #4f46e5;
@@ -115,14 +117,18 @@ h1 {
   color: white;
   font-weight: 500;
   padding: 10px 15px;
-  border-radius: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Mulish", sans-serif;
 }
 .learn-more {
   border: none;
   color: #101826;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 14px;
   padding: 10px 15px;
+  cursor: pointer;
+  font-family: "Mulish", sans-serif;
   background-color: transparent;
 }
 .content {
@@ -132,7 +138,7 @@ h1 {
 }
 .content p {
   line-height: 2;
-  font-size: 20px;
+  font-size: 18px;
 }
 .button-section {
   display: flex;

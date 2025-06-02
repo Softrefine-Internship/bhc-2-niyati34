@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Mulish", sans-serif;
   background-color: #f9fafb;
   min-height: 100vh;
   display: flex;
@@ -53,13 +53,13 @@ body {
   display: block;
   margin-bottom: 6px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   color: #374151;
 }
 
 .form-group input {
   width: 100%;
-  padding: 5px 16px;
+  padding: 5px 8px;
   border: 1px solid #d1d5db;
   border-radius: 6px;
   font-size: 16px;
@@ -88,7 +88,7 @@ body {
 
 .remember-me label {
   color: #4c4c4d;
-  font-weight: 500;
+  font-weight: 600;
   margin: 0;
   font-size: 12px;
 }
@@ -187,6 +187,6 @@ body {
 .signup-link a {
   color: #4848e0;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 12px;
 }
