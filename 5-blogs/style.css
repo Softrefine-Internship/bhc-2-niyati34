@@ -72,7 +72,6 @@ hr {
 .profile {
   display: flex;
   gap: 15px;
-  align-items: center;
 }
 .name {
   margin-bottom: 5px;
